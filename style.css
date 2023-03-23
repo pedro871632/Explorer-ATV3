@@ -1,0 +1,291 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #BFD7E4;
+}
+
+#cabeçalho {
+  height: 465px;
+  padding-top: 107px;
+  background-color: #293241;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#cabeçalho h1 {
+  font-family: "Staatliches";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  color: #ffffff;
+}
+#cabeçalho p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  height: 46px;
+}
+#cabeçalho img {
+  margin-top: 2px;
+}
+#cabeçalho .caixa-rosa {
+  width: 750px;
+  max-width: 750px;
+  height: 133px;
+  margin-top: 34px;
+  border-radius: 20px 20px 0px 0px;
+  background: #F67669;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cabeçalho .caixa-rosa #info {
+  font-family: "Staatliches";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.centralizar {
+  width: 750px;
+  padding: 31px 64px;
+
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+form {
+  width: 622px;
+}
+
+.titles {
+  display: flex;
+  gap: 278px;
+}
+
+.input-f1 {
+  display: flex;
+  gap: 22px;
+}
+.input-f1 .input-ff1 {
+  width: 300px;
+}
+
+.input-name {
+  height: 55px;
+  width: 300px;
+  border-radius: 8px;
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+}
+
+
+.input-sobrenome {
+  height: 55px;
+  width: 300px;
+  left: 731px;
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  background: #FAFAFC;
+} 
+
+
+
+
+label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  color: #4E4958;
+}
+
+fieldset {
+  border: none;
+}
+
+span {
+  position: relative;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.input-email {
+  height: 55px;
+  width: 622px;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+}
+.input-email:invalid {
+  border: 2px solid red;
+}
+
+
+.labels {
+  margin-bottom: 8px;
+}/*# sourceMappingURL=style.css.map */
+
+
+
+.info-mentor {
+  text-align: center;
+  font-family: Staatliches;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  color: #253B51;
+
+}
+
+.label {
+  padding-top: 31px;
+  display: flex;
+  align-items: center;
+}
+
+#mentor {
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  height: 55px;
+  width: 300px;
+  appearance: none;
+
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 5V19' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M19 12L12 19L5 12' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: top 50% right 10px;
+ 
+}
+
+
+
+#feedback {
+  height: 166px;
+  width: 608px;
+  border-radius: 8px;
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+}
+
+.checkbox {
+  height: 23px;
+  width: 24px;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+.label-checkbox {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+#schedule-section {
+  margin-top: 36px;
+}
+#line {
+  height: 0px;
+  width: 622px;
+  border: 1px solid #E6E6F0;
+  margin-top: 10px;
+}
+
+.labe {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 196px;
+
+}
+
+.date {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #C1BCCC;
+}
+  
+.labis {
+  margin-top: 31px;
+}
+
+.labe-das {
+  margin-right: 115px;
+}
+
+#input-date {
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  width: 300px;
+  height: 55px;
+  font-size: 14px;
+
+  margin: 9px 32px 0 0;
+}
+#input-das {
+
+  height: 55px;
+  width: 140px;
+  
+  background: #FAFAFC;
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+} 
+  
+#input-ate {
+  height: 55.52861785888672px;
+  width: 140px;
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+}
+  
+.inputis {
+  margin-top: 8px;
+}
+
+.salvar {
+
+  width: 622px;
+  height: 51px;
+  background: #F67669;
+  border-radius: 8px;
+  border: transparent ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+
+  margin-top: 64px;
+
+}
+
+
+  

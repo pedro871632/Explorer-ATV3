@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="cabeçalho">
+        <h1>avalie a sua mentoria</h1>
+
+        <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+
+        <img src="img1.svg" alt="nuvem na cor rosa  com estrelas na cor branca.">
+
+        <div class="caixa-rosa"> 
+            <p id="info">Informações pessoais</p>
+        </div>
+    </header>
+    <div class="centralizar">
+        <form action="">
+            <fieldset>
+                    <div class="titles">
+                        <label for="">Nome</label>
+                        <label for="">Sobrenome</label>
+                    
+                    </div>
+                    
+                    <div class="input-f1">
+                        <input required type="text" class="input-ff1 input-name">
+                        <input required type="text" class="input-ff1 input-sobrenome">
+                    </div>
+                    <div class="labels">
+                        <label for="">Email <span>(Digite um email válido)</span></label>
+                    </div>
+
+                    <div class="inputs">
+                        <input required type="email" class="input-email">
+                    </div>
+            </fieldset>
+
+
+            <fieldset class="section-fieldset">
+                <legend class="info-mentor">Informações do mentor</legend>
+                <div class="label">
+                    <label for="mentor">Selecione quem foi seu mentor</label>
+                </div>
+                
+                <select name="" id="mentor">
+                    <option value="Pedro">Pedro</option>
+                    <option value="Lucas">Lucas</option>
+                </select>
+
+                <div class="label">
+                    <label for="feedback">feedback sobre o mentor</label>
+                </div>
+               
+                <input required type="text" id="feedback">
+
+                <div class="label">
+                    <input type="checkbox" class="checkbox" required>
+                    <label for="checkbox" class="label-checkbox">Todas as minhas dúvidas foram esclarecidas durante a mentoria</label>
+
+                </div>     
+            
+            </fieldset>
+
+            <fieldset id="schedule-section">
+                <legend class="info-mentor">Agendando próxima mentoria</legend>
+                <div id="line"></div>
+
+
+                <div class="labis">
+                    <label for="" class="labe">Data <span class="date" style="margin-left:6px;">(DD/MM/AAAA)</span></label>
+
+                    <label for="" class="labe-das">Das</label>
+
+                    <label for="">Até</label>
+                </div>
+
+                <div class="inputis">
+                    <input required type="date" id="input-date">
+
+                    <input required type="number" id="input-das" min="0" max="20">
+
+
+                    <input required type="number" id="input-ate" min="1" max="6">
+                </div>
+            </fieldset>
+
+            <button type="submit" class="salvar">SALVAR</button>
+        </form>
+    
+    </div>
+        
+</body>
+</html>
